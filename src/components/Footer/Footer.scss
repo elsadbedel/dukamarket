@@ -1,0 +1,198 @@
+footer {
+  background: $bgColor1;
+  color: #999;
+}
+
+#footerTop {
+  // Footer Top
+  background: $secondaryColor;
+  padding: 60px 0 52px;
+  .footerTopTitle {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+  }
+  .content {
+    margin: 0 0 10px;
+    padding: 2px;
+    color: $footerContent;
+  }
+  .footerSocial {
+    display: flex;
+    li {
+      line-height: 1;
+      a {
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        border-radius: 5px;
+        line-height: 45px;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        background: #000;
+        margin-right: 10px;
+      }
+    }
+    .twitter {
+      a {
+        background: #40c1df !important;
+      }
+    }
+    .facebook {
+      a {
+        background: #3c5b9b !important;
+      }
+    }
+    .pinterest {
+      a {
+        background: #c72982 !important;
+      }
+    }
+    .instagram {
+      a {
+        background: #c619b8 !important;
+      }
+    }
+    .youtube {
+      a {
+        background: #ff0e00;
+      }
+    }
+  }
+  .subscribe {
+    display: flex;
+    input {
+      outline: none;
+      border: none;
+      width: 100%;
+      border-radius: 3px 0 0 3px;
+      line-height: 45px;
+      padding: 0 15px;
+      width: 250px;
+    }
+    button {
+      background-color: $colorHover1;
+      border: none;
+      color: #222;
+      line-height: 45px;
+      border-radius: 0 3px 3px 0;
+      padding: 0 15px;
+      font-weight: 600;
+      cursor: pointer;
+      min-width: 125px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+#footerMiddle {
+  background: $bgColor1;
+  padding-top: 60px;
+  .line {
+    border-bottom: 1px solid #36373a;
+    margin-top: 60px;
+  }
+  .footerMiddleTitle {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+    padding-bottom: 25px;
+  }
+
+  .footerMenu {
+    li {
+      line-height: 1;
+      margin-bottom: 11px;
+      a {
+        transition: all 0.3s;
+        color: $footerContent;
+        font-size: 14px;
+        line-height: 24px;
+        &:hover {
+          color: $colorHover1;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+  p {
+    color: #999;
+    line-height: 24px;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 14px;
+  }
+
+  .phone {
+    padding-left: 60px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    position: relative;
+    i {
+      font-size: 54px;
+      color: $colorHover1;
+      position: absolute;
+      left: 0px;
+      top: -7px;
+    }
+    span {
+      display: block;
+      font-size: 14px;
+      line-height: 25px;
+      color: #999;
+      :last-child {
+        font-size: 24px;
+        color: $colorHover1;
+      }
+    }
+  }
+}
+#footerBottom {
+  background: $bgColor1;
+  padding: 60px 0;
+  .customLink {
+    text-align: center;
+    p {
+      display: flex;
+      line-height: 1;
+      justify-content: center;
+      a {
+        color: #999;
+        padding: 0 6px;
+        display: inline-block;
+        margin-bottom: 13px;
+        &:hover {
+          color: $colorHover1;
+        }
+      }
+    }
+  }
+  .footerPaypal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+  }
+  .CopyRight {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 14px !important;
+    .content {
+      color: $footerContent;
+    }
+    a {
+      font-weight: 400;
+      color: $colorHover1;
+    }
+  }
+}

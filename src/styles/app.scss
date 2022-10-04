@@ -1,0 +1,74 @@
+@import "./container.scss"; // Wrapper
+@import "./variables.scss"; // Colors
+
+@import "../components/SingleProduct/singleProduct.scss"; // SingleProduct
+@import "../components/SingleProduct/addToCart.scss"; // Add To Cart
+@import "../components/SingleProduct/wishList.scss"; // Wishlist
+@import "../components/SingleProduct/viewProduct.scss"; // View product
+@import "../components/SingleProduct/login.scss"; // Login
+
+@import "../components/Header/header.scss"; // All header component
+
+@import "../components/SectionTop/shipping.scss"; // All SectionTop
+@import "../components/SectionTop/Banner.scss"; // Banner
+@import "../components/SectionTop/countDown.scss"; // countdown
+
+@import "../components/TopSelling/topSellingBanner.scss"; // topselling banner
+@import "../components/TopSelling/topsellingNav.scss"; // topselling nav
+
+@import "../components/TopFeatured/topFeatured.scss"; // topFeatured
+@import "../components/TopFeatured/topFeaturedNav.scss"; // topFeatured nav
+
+@import "../components/Recommend/recommend.scss"; // recommend
+@import "../components/Recommend/recommendBanner.scss"; // recommend Banner
+@import "../components/Recommend/recommendNav.scss"; // recommend Nav
+@import "../components/Recommend/RecommendBrand.scss"; // recommend Brand
+
+@import "../components/Footer/Footer.scss";
+@import "~antd/dist/antd.css";
+// All app scss styles is here
+
+.overlayPrimary {
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    z-index: 2;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    z-index: 2;
+  }
+  &:hover {
+    &::before {
+      width: 0%;
+      background-color: #ffffff26;
+    }
+    &::after {
+      height: 0%;
+      background-color: #ffffff26;
+    }
+  }
+}

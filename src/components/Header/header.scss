@@ -1,0 +1,219 @@
+#header {
+  background: $mainColor;
+  // margin-bottom: 50px;
+}
+
+#topBar {
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  .topBarMenu {
+    display: flex;
+    .money,
+    .menuLanguage {
+      button {
+        background: transparent;
+        border: none;
+        color: white;
+        &:hover {
+          color: $colorHover1;
+        }
+      }
+      .languageFlag {
+        width: 15px;
+      }
+    }
+    .needHelp {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      a {
+        color: white;
+        &:hover {
+          color: $colorHover1;
+        }
+      }
+    }
+  }
+
+  .topContact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    .contact-item {
+      padding: 0 20px;
+      font-size: 13px;
+      border-right: 1px solid rgba(245, 245, 245, 0.15);
+      &:last-child {
+        border-right: none;
+      }
+      span {
+        cursor: pointer;
+        color: white;
+        &:hover {
+          color: $colorHover1;
+        }
+      }
+    }
+  }
+}
+
+#headerTop {
+  .headerLogo {
+    cursor: pointer;
+  }
+  .formHeaderSearch {
+    display: flex;
+    justify-content: center;
+    padding: 29px 45px 29px 15px;
+    .productType {
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+      padding: 10px;
+      padding-right: 0px;
+      border: none;
+      margin: 0;
+      height: 50px;
+      min-width: 154px;
+      font-family: Rubik, sans-serif;
+      outline: none;
+    }
+    .headerSearchInput {
+      border: none;
+      height: 50px;
+      padding: 0 15px;
+      outline: none;
+    }
+
+    .headerSearchSubmit {
+      position: relative;
+      background: #fcbe00;
+      height: 50px;
+      width: 50px;
+      line-height: 50px;
+      color: #222;
+      font-size: 20px;
+      border: none;
+      border-radius: 0 3px 3px 0;
+      cursor: pointer;
+
+      i {
+        position: absolute;
+        translate: -50% -50%;
+      }
+    }
+  }
+  .headerTopMeta {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li {
+        position: relative;
+        list-style: none;
+        position: relative;
+        padding: 0 20px;
+        vertical-align: bottom;
+        cursor: pointer;
+        span {
+          color: white;
+        }
+        i {
+          font-size: 32px;
+          position: absolute;
+          left: -20px;
+          top: 0%;
+        }
+        .headerCounter {
+          position: absolute;
+          left: 0%;
+          top: -8px;
+          font-size: 11px;
+          color: #222;
+          font-weight: 400;
+          background: #fcbe00;
+          height: 20px;
+          width: 20px;
+          border-radius: 100%;
+          text-align: center;
+          line-height: 20px;
+        }
+        span {
+          display: block;
+        }
+        ._wishList,
+        ._login,
+        ._cart {
+          color: #a3afef;
+          display: block;
+          line-height: 1;
+          margin-bottom: 3px;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  .headerTopLine {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+}
+#headerBottom {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+
+  .headerBottomMenu {
+    transition: all 0.3s;
+    cursor: pointer;
+    height: 55px;
+    padding: 0% 8%;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    &:hover {
+      background: #fcbe00;
+      color: #222;
+    }
+
+    span {
+      &:first-child {
+        font-size: 18px;
+      }
+    }
+  }
+  .hedaerBottomNav {
+    display: flex;
+    justify-content: space-around;
+    a {
+      color: white;
+      i {
+        font-size: 12px;
+      }
+    }
+    li {
+      display: flex;
+      align-items: center;
+      height: 55px;
+      &:hover {
+        a {
+          color: #fcbe00;
+        }
+      }
+    }
+  }
+
+  .headerBottomMeta {
+    height: 55px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .headerBottomLine {
+    padding-top: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+}

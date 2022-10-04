@@ -1,0 +1,101 @@
+#viewProduct {
+  padding: 30px;
+
+  .singleItemTitle h1 {
+    text-transform: none;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    span {
+      color: #0068c9;
+      font-weight: 500;
+    }
+  }
+  .ratingStar {
+    font-size: 13px;
+    color: #ffa200;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .prices {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ebebeb;
+    margin: 0 0 25px;
+    .newPrice {
+      color: #cc1414;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 2;
+    }
+    .oldPrice {
+      color: #a4a4a4;
+      font-size: 16px;
+      font-weight: 400;
+      margin-left: 0;
+      text-decoration: line-through;
+    }
+  }
+  .singleItemDescription {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: #666;
+    line-height: 25px;
+  }
+  .btnGroup {
+    display: flex;
+    justify-content: space-between;
+    .loveProduct {
+      cursor: pointer;
+      border-radius: 3px;
+      width: 50px;
+      line-height: 50px;
+      background: #ebebeb;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        background: #fcbe00;
+      }
+    }
+  }
+  .singleItemCart {
+    width: 89%;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 3px;
+    border-color: #fcbe00;
+    background-color: #fcbe00;
+    color: #222222;
+    padding: 0 30px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    &:hover {
+      background: #ffa200;
+    }
+  }
+  .singleItemBuy {
+    transition: all 0.3s;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    border-radius: 1px;
+    border-color: #fcbe00;
+    background-color: #222222;
+    color: white;
+    padding: 0 30px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    &:hover {
+      background-color: #fcbe00;
+    }
+  }
+}

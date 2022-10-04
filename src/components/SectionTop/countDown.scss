@@ -1,0 +1,80 @@
+.countdownSection {
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ebebeb;
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  .sectionTitle {
+    color: #222;
+    margin: 0;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    letter-spacing: -0.5px;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -1px;
+      border-bottom: 2px solid #fcbe00;
+    }
+  }
+  .countdownWrap {
+    align-items: flex-start;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: -5px;
+    .countdownLabel {
+      color: #222;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 36px;
+      margin-right: 20px;
+    }
+    .countdown {
+      display: flex;
+      border-radius: 3px;
+      background: #cc1414;
+      padding: 10px 20px;
+      .boxCount {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 19px;
+        &:last-child {
+          margin-right: 0px;
+        }
+        .number {
+          color: #fff;
+          font-size: 16px;
+          font-weight: 500;
+          margin-right: 5px;
+          line-height: 1;
+        }
+        .text {
+          color: #ffb9b9;
+          font-size: 11px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

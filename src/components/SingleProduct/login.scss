@@ -1,0 +1,54 @@
+.loginDrawer {
+  .ant-drawer-content-wrapper {
+    height: auto !important;
+    width: 35vw;
+    left: 30vw;
+    right: 30vw;
+  }
+  .loginBtn {
+    font-size: 12px;
+    font-weight: 500;
+    height: 45px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #fcbe00;
+    outline: none;
+    border: none;
+    color: #222;
+    &:hover {
+      background: #fcb200;
+      outline: none;
+      border: none;
+    }
+  }
+  .registrationBtn {
+    font-size: 12px;
+    font-weight: 500;
+    height: 45px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #fcbe00;
+    outline: none;
+    border: none;
+    color: #222;
+    &:hover {
+      background: #fcb200;
+      outline: none;
+      border: none;
+    }
+  }
+  .ant-tabs-nav-wrap {
+    justify-content: space-around;
+    width: 100%;
+    .ant-tabs-nav-list {
+      width: 100%;
+      justify-content: center;
+    }
+    .ant-tabs-tab {
+      justify-content: center;
+      width: 50%;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+#shipping {
+  margin: 50px 0px;
+  background: white;
+  
+}
+.shippingItem {
+  position: relative;
+  display: flex;
+  border: none;
+  padding: 0;
+  border-right: 1px solid #ebebeb;
+  justify-content: center;
+  
+  .shippingIcon {
+    margin: 0 20px 0 0;
+    color: #fcbe00;
+    i {
+      line-height: 35px;
+      font-size: 35px;
+    }
+  }
+  .shippingContent {
+    color: #888888;
+    font-size: 13px;
+    display: block;
+    .title {
+      font-size: 13px;
+      margin-bottom: 8px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #222222;
+    }
+    p {
+      margin: 0;
+      line-height: 13px;
+      color: #666;
+      font-size: 13px;
+      
+    }
+  }
+}
