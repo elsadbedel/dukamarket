@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dukamarket/static/css/main.8e381a3e.css",
+    "main.js": "/dukamarket/static/js/main.6e22c76b.js",
+    "index.html": "/dukamarket/index.html",
+    "main.8e381a3e.css.map": "/dukamarket/static/css/main.8e381a3e.css.map",
+    "main.6e22c76b.js.map": "/dukamarket/static/js/main.6e22c76b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e381a3e.css",
+    "static/js/main.6e22c76b.js"
+  ]
+}
